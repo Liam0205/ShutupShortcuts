@@ -1,9 +1,12 @@
-Package: com.wrp1002.shutupshortcuts
+Package: page.liam.shutupshortcuts
+Provides: com.wrp1002.shutupshortcuts
+Conflicts: com.wrp1002.shutupshortcuts
+Replaces: com.wrp1002.shutupshortcuts
 Name: ShutupShortcuts
-Version: 1.1.0
-Architecture: iphoneos-arm
+Version: 1.0.0
+Architecture: iphoneos-arm64
 Description: Stop Shutcut notifications!
-Maintainer: Wes <wes.hamster@gmail.com>
-Author: Wes <wes.hamster@gmail.com>
+Maintainer: Liam Huang <liamhuang0205@gmail.com>
+Author: Wes <wes.hamster@gmail.com>, Liam Huang <liamhuang0205@gmail.com>
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.2)
+Depends: ellekit (>= 1.0), ws.hbang.common (>= 2.0)
