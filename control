@@ -3,7 +3,7 @@ Provides: com.wrp1002.shutupshortcuts
 Conflicts: com.wrp1002.shutupshortcuts
 Replaces: com.wrp1002.shutupshortcuts
 Name: ShutupShortcuts
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Description: Stop Shutcut notifications!
 Maintainer: Liam Huang <liamhuang0205@gmail.com>
