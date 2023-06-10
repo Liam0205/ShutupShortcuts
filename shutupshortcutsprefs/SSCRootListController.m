@@ -36,7 +36,7 @@
 -(void)reloadSpecifiers {
 	[super reloadSpecifiers];
 
-	HBPreferences *prefs = [[HBPreferences alloc] initWithIdentifier:@"com.wrp1002.shutupshortcuts"];
+	HBPreferences *prefs = [[HBPreferences alloc] initWithIdentifier:@"page.liam.shutupshortcuts"];
 	if([prefs boolForKey:@"kDisableAll"])
 		[self removeSpecifierID:@"kAutomationStr" animated:NO];
 }
@@ -53,14 +53,14 @@
 }
 
 -(void)ResetSettings {
-	HBPreferences *prefs = [[HBPreferences alloc] initWithIdentifier: @"com.wrp1002.shutupshortcuts"];
+	HBPreferences *prefs = [[HBPreferences alloc] initWithIdentifier: @"page.liam.shutupshortcuts"];
 	[prefs removeAllObjects];
 	[self Respring];
 }
 
 -(void)OpenGithub {
 	UIApplication *application = [UIApplication sharedApplication];
-	NSURL *URL = [NSURL URLWithString:@"https://github.com/wrp1002/ShutupShortcuts"];
+	NSURL *URL = [NSURL URLWithString:@"https://github.com/Liam0205/ShutupShortcuts"];
 	[application openURL:URL options:@{} completionHandler:^(BOOL success) {}];
 }
 
@@ -78,7 +78,7 @@
 
 -(void)OpenEmail {
 	UIApplication *application = [UIApplication sharedApplication];
-	NSURL *URL = [NSURL URLWithString:@"mailto:wes.hamster@gmail.com?subject=ShutupShortcuts"];
+	NSURL *URL = [NSURL URLWithString:@"mailto:liamhuang0205@gmail.com?subject=ShutupShortcuts"];
 	[application openURL:URL options:@{} completionHandler:^(BOOL success) {}];
 }
 

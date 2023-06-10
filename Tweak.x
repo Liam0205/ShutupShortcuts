@@ -6,7 +6,7 @@
 #import <objc/runtime.h>
 
 #define TWEAK_NAME @"ShutupShortcuts"
-#define BUNDLE [NSString stringWithFormat:@"com.wrp1002.%@", [TWEAK_NAME lowercaseString]]
+#define BUNDLE [NSString stringWithFormat:@"page.liam.%@", [TWEAK_NAME lowercaseString]]
 
 
 //  =========================== Preference vars ===========================
